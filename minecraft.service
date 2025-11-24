@@ -1,0 +1,18 @@
+[Unit]
+Description=Minecraft Server (screen wrapper)
+After=network.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+
+User=minecraft
+WorkingDirectory=/opt/minecraft
+
+ExecStart=/usr/bin/screen -DmS minecraft /usr/bin/java -Xmx2G -Xms1G -jar minecraft_server.jar nogui
+ExecStop=/usr/bin/screen -S minecraft -p 0 -X stuff "stop\n" || true
+
+Restart=no
+
+[Install]
+WantedBy=multi-user.target

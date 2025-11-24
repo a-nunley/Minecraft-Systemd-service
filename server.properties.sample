@@ -1,0 +1,46 @@
+# Example server.properties
+# This file is a generic template for demonstration only.
+# Do NOT use this file in production without editing it.
+
+motd=A Simple Minecraft Server
+server-port=25565
+server-ip=
+
+max-players=20
+online-mode=true
+difficulty=normal
+gamemode=survival
+
+allow-nether=true
+spawn-animals=true
+spawn-monsters=true
+pvp=true
+enable-command-block=false
+
+view-distance=10
+simulation-distance=10
+max-build-height=256
+
+hardcore=false
+white-list=false
+
+# World Settings
+level-name=world
+level-seed=
+generate-structures=true
+level-type=default
+
+# Performance
+max-tick-time=60000
+max-world-size=29999984
+
+# Networking
+enable-rcon=false
+rcon.password=
+rcon.port=25575
+
+# Misc
+enable-status=true
+allow-flight=false
+announce-player-achievements=true
+force-gamemode=false
