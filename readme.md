@@ -1,4 +1,4 @@
-\# Minecraft Server on Debian with systemd and screen
+## Minecraft Server on Debian with systemd and screen
 
 
 
@@ -22,7 +22,7 @@ This is done assuming you already have a Minecraft server jar (from Mojang) and 
 
 
 
-\## Requirements
+## Requirements
 
 
 
@@ -40,7 +40,7 @@ This is done assuming you already have a Minecraft server jar (from Mojang) and 
 
 
 
-\## Directory layout
+## Directory layout
 
 
 
@@ -65,6 +65,7 @@ The server lives in:
 &nbsp; libraries/
 
 &nbsp; versions/
+
 
 
 
