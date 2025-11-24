@@ -50,21 +50,17 @@ The server lives in:
 
 ```text
 
+
 /opt/minecraft/
-
-&nbsp; minecraft\_server.jar
-
-&nbsp; eula.txt
-
-&nbsp; server.properties
-
-&nbsp; world/
-
-&nbsp; logs/
-
-&nbsp; libraries/
-
-&nbsp; versions/
+│
+├── minecraft_server.jar
+├── eula.txt
+├── server.properties
+│
+├── world/
+├── logs/
+├── libraries/
+└── versions/
 
 
 
